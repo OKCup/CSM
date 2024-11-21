@@ -1,0 +1,1100 @@
+Namespace(image_size=84, lr=0.0001, gamma=0.1, milestones=[40, 80], epoch=200, gpu='0', dataset='mini_imagenet', data_path='/root/autodl-tmp/data/miniImageNet_9G', model='ResNet12', method='meta_deepbdc', train_n_episode=600, val_n_episode=600, train_n_way=5, val_n_way=5, n_shot=5, n_query=16, extra_dir='', num_classes=64, pretrain_path='./checkpoints/mini_imagenet/ResNet12_meta_deepbdc_pretrain-Jun-20-2024-13-32-40/best_model.tar', save_freq=50, seed=1, reduce_dim=576, checkpoint_dir='./checkpoints/mini_imagenet/ResNet12_meta_deepbdc_5way_5shot_metatrain-Jun-20-2024-20-40-44')
+Epoch 0 | Batch 0/600 | Loss 9.047507
+Epoch 0 | Batch 200/600 | Loss 4.686128
+Epoch 0 | Batch 400/600 | Loss 3.133746
+600 Test Acc = 79.58% +- 0.57%
+best model! save...
+This epoch use 2.63 minutes
+train loss is 2.43, train acc is 81.81
+val loss is 1.18, val acc is 79.58
+model best acc is 79.58, best acc epoch is 0
+Epoch 1 | Batch 0/600 | Loss 1.017697
+Epoch 1 | Batch 200/600 | Loss 0.797276
+Epoch 1 | Batch 400/600 | Loss 0.744238
+600 Test Acc = 80.53% +- 0.57%
+best model! save...
+This epoch use 2.63 minutes
+train loss is 0.70, train acc is 83.48
+val loss is 0.74, val acc is 80.53
+model best acc is 80.53, best acc epoch is 1
+Epoch 2 | Batch 0/600 | Loss 0.432277
+Epoch 2 | Batch 200/600 | Loss 0.562427
+Epoch 2 | Batch 400/600 | Loss 0.565598
+600 Test Acc = 80.85% +- 0.56%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.55, train acc is 83.65
+val loss is 0.62, val acc is 80.85
+model best acc is 80.85, best acc epoch is 2
+Epoch 3 | Batch 0/600 | Loss 0.289647
+Epoch 3 | Batch 200/600 | Loss 0.486736
+Epoch 3 | Batch 400/600 | Loss 0.470767
+600 Test Acc = 81.16% +- 0.56%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.46, train acc is 85.16
+val loss is 0.57, val acc is 81.16
+model best acc is 81.16, best acc epoch is 3
+Epoch 4 | Batch 0/600 | Loss 0.162381
+Epoch 4 | Batch 200/600 | Loss 0.471261
+Epoch 4 | Batch 400/600 | Loss 0.447618
+600 Test Acc = 82.02% +- 0.54%
+best model! save...
+This epoch use 2.61 minutes
+train loss is 0.43, train acc is 85.42
+val loss is 0.54, val acc is 82.02
+model best acc is 82.02, best acc epoch is 4
+Epoch 5 | Batch 0/600 | Loss 0.188771
+Epoch 5 | Batch 200/600 | Loss 0.416077
+Epoch 5 | Batch 400/600 | Loss 0.417939
+600 Test Acc = 82.69% +- 0.50%
+best model! save...
+This epoch use 2.61 minutes
+train loss is 0.41, train acc is 85.96
+val loss is 0.51, val acc is 82.69
+model best acc is 82.69, best acc epoch is 5
+Epoch 6 | Batch 0/600 | Loss 0.177547
+Epoch 6 | Batch 200/600 | Loss 0.400130
+Epoch 6 | Batch 400/600 | Loss 0.395698
+600 Test Acc = 82.52% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.39, train acc is 86.48
+val loss is 0.51, val acc is 82.52
+model best acc is 82.69, best acc epoch is 5
+Epoch 7 | Batch 0/600 | Loss 0.853414
+Epoch 7 | Batch 200/600 | Loss 0.380206
+Epoch 7 | Batch 400/600 | Loss 0.385203
+600 Test Acc = 83.43% +- 0.54%
+best model! save...
+This epoch use 2.60 minutes
+train loss is 0.39, train acc is 86.47
+val loss is 0.48, val acc is 83.43
+model best acc is 83.43, best acc epoch is 7
+Epoch 8 | Batch 0/600 | Loss 0.191002
+Epoch 8 | Batch 200/600 | Loss 0.373652
+Epoch 8 | Batch 400/600 | Loss 0.370860
+600 Test Acc = 83.26% +- 0.51%
+This epoch use 2.62 minutes
+train loss is 0.38, train acc is 86.86
+val loss is 0.48, val acc is 83.26
+model best acc is 83.43, best acc epoch is 7
+Epoch 9 | Batch 0/600 | Loss 0.468555
+Epoch 9 | Batch 200/600 | Loss 0.392881
+Epoch 9 | Batch 400/600 | Loss 0.376384
+600 Test Acc = 83.53% +- 0.54%
+best model! save...
+This epoch use 2.61 minutes
+train loss is 0.37, train acc is 87.03
+val loss is 0.47, val acc is 83.53
+model best acc is 83.53, best acc epoch is 9
+Epoch 10 | Batch 0/600 | Loss 0.443583
+Epoch 10 | Batch 200/600 | Loss 0.357196
+Epoch 10 | Batch 400/600 | Loss 0.360256
+600 Test Acc = 83.95% +- 0.53%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.36, train acc is 87.35
+val loss is 0.46, val acc is 83.95
+model best acc is 83.95, best acc epoch is 10
+Epoch 11 | Batch 0/600 | Loss 0.168617
+Epoch 11 | Batch 200/600 | Loss 0.347587
+Epoch 11 | Batch 400/600 | Loss 0.341017
+600 Test Acc = 84.16% +- 0.53%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.34, train acc is 88.11
+val loss is 0.45, val acc is 84.16
+model best acc is 84.16, best acc epoch is 11
+Epoch 12 | Batch 0/600 | Loss 0.311746
+Epoch 12 | Batch 200/600 | Loss 0.346482
+Epoch 12 | Batch 400/600 | Loss 0.346031
+600 Test Acc = 83.75% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.34, train acc is 88.36
+val loss is 0.46, val acc is 83.75
+model best acc is 84.16, best acc epoch is 11
+Epoch 13 | Batch 0/600 | Loss 0.140236
+Epoch 13 | Batch 200/600 | Loss 0.351333
+Epoch 13 | Batch 400/600 | Loss 0.357510
+600 Test Acc = 84.21% +- 0.52%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.36, train acc is 87.74
+val loss is 0.44, val acc is 84.21
+model best acc is 84.21, best acc epoch is 13
+Epoch 14 | Batch 0/600 | Loss 0.314498
+Epoch 14 | Batch 200/600 | Loss 0.323917
+Epoch 14 | Batch 400/600 | Loss 0.327996
+600 Test Acc = 84.27% +- 0.52%
+best model! save...
+This epoch use 2.61 minutes
+train loss is 0.33, train acc is 88.44
+val loss is 0.45, val acc is 84.27
+model best acc is 84.27, best acc epoch is 14
+Epoch 15 | Batch 0/600 | Loss 0.362424
+Epoch 15 | Batch 200/600 | Loss 0.359838
+Epoch 15 | Batch 400/600 | Loss 0.342922
+600 Test Acc = 84.04% +- 0.53%
+This epoch use 2.62 minutes
+train loss is 0.34, train acc is 87.91
+val loss is 0.45, val acc is 84.04
+model best acc is 84.27, best acc epoch is 14
+Epoch 16 | Batch 0/600 | Loss 0.483477
+Epoch 16 | Batch 200/600 | Loss 0.328346
+Epoch 16 | Batch 400/600 | Loss 0.327879
+600 Test Acc = 83.82% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.33, train acc is 88.45
+val loss is 0.45, val acc is 83.82
+model best acc is 84.27, best acc epoch is 14
+Epoch 17 | Batch 0/600 | Loss 0.194239
+Epoch 17 | Batch 200/600 | Loss 0.326385
+Epoch 17 | Batch 400/600 | Loss 0.328314
+600 Test Acc = 84.34% +- 0.53%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.33, train acc is 88.55
+val loss is 0.44, val acc is 84.34
+model best acc is 84.34, best acc epoch is 17
+Epoch 18 | Batch 0/600 | Loss 0.478029
+Epoch 18 | Batch 200/600 | Loss 0.331828
+Epoch 18 | Batch 400/600 | Loss 0.324004
+600 Test Acc = 84.08% +- 0.54%
+This epoch use 2.60 minutes
+train loss is 0.32, train acc is 88.60
+val loss is 0.44, val acc is 84.08
+model best acc is 84.34, best acc epoch is 17
+Epoch 19 | Batch 0/600 | Loss 0.438270
+Epoch 19 | Batch 200/600 | Loss 0.324410
+Epoch 19 | Batch 400/600 | Loss 0.325818
+600 Test Acc = 84.90% +- 0.52%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.33, train acc is 88.58
+val loss is 0.43, val acc is 84.90
+model best acc is 84.90, best acc epoch is 19
+Epoch 20 | Batch 0/600 | Loss 0.605233
+Epoch 20 | Batch 200/600 | Loss 0.332743
+Epoch 20 | Batch 400/600 | Loss 0.329205
+600 Test Acc = 84.40% +- 0.50%
+This epoch use 2.62 minutes
+train loss is 0.33, train acc is 88.60
+val loss is 0.43, val acc is 84.40
+model best acc is 84.90, best acc epoch is 19
+Epoch 21 | Batch 0/600 | Loss 0.379852
+Epoch 21 | Batch 200/600 | Loss 0.325886
+Epoch 21 | Batch 400/600 | Loss 0.324759
+600 Test Acc = 84.40% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.32, train acc is 88.75
+val loss is 0.44, val acc is 84.40
+model best acc is 84.90, best acc epoch is 19
+Epoch 22 | Batch 0/600 | Loss 0.279526
+Epoch 22 | Batch 200/600 | Loss 0.326432
+Epoch 22 | Batch 400/600 | Loss 0.322637
+600 Test Acc = 84.49% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.32, train acc is 88.81
+val loss is 0.43, val acc is 84.49
+model best acc is 84.90, best acc epoch is 19
+Epoch 23 | Batch 0/600 | Loss 0.239701
+Epoch 23 | Batch 200/600 | Loss 0.327629
+Epoch 23 | Batch 400/600 | Loss 0.320321
+600 Test Acc = 84.47% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.31, train acc is 89.12
+val loss is 0.43, val acc is 84.47
+model best acc is 84.90, best acc epoch is 19
+Epoch 24 | Batch 0/600 | Loss 0.109502
+Epoch 24 | Batch 200/600 | Loss 0.285438
+Epoch 24 | Batch 400/600 | Loss 0.290451
+600 Test Acc = 84.58% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.30, train acc is 89.53
+val loss is 0.43, val acc is 84.58
+model best acc is 84.90, best acc epoch is 19
+Epoch 25 | Batch 0/600 | Loss 0.302096
+Epoch 25 | Batch 200/600 | Loss 0.307780
+Epoch 25 | Batch 400/600 | Loss 0.298560
+600 Test Acc = 84.11% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 89.95
+val loss is 0.44, val acc is 84.11
+model best acc is 84.90, best acc epoch is 19
+Epoch 26 | Batch 0/600 | Loss 0.291952
+Epoch 26 | Batch 200/600 | Loss 0.298558
+Epoch 26 | Batch 400/600 | Loss 0.299191
+600 Test Acc = 84.52% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.30, train acc is 89.63
+val loss is 0.43, val acc is 84.52
+model best acc is 84.90, best acc epoch is 19
+Epoch 27 | Batch 0/600 | Loss 0.389232
+Epoch 27 | Batch 200/600 | Loss 0.293362
+Epoch 27 | Batch 400/600 | Loss 0.293226
+600 Test Acc = 84.64% +- 0.50%
+This epoch use 2.62 minutes
+train loss is 0.30, train acc is 89.65
+val loss is 0.43, val acc is 84.64
+model best acc is 84.90, best acc epoch is 19
+Epoch 28 | Batch 0/600 | Loss 0.148377
+Epoch 28 | Batch 200/600 | Loss 0.280683
+Epoch 28 | Batch 400/600 | Loss 0.287799
+600 Test Acc = 85.22% +- 0.49%
+best model! save...
+This epoch use 2.62 minutes
+train loss is 0.29, train acc is 90.12
+val loss is 0.42, val acc is 85.22
+model best acc is 85.22, best acc epoch is 28
+Epoch 29 | Batch 0/600 | Loss 0.115860
+Epoch 29 | Batch 200/600 | Loss 0.318973
+Epoch 29 | Batch 400/600 | Loss 0.303676
+600 Test Acc = 84.80% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.30, train acc is 89.42
+val loss is 0.43, val acc is 84.80
+model best acc is 85.22, best acc epoch is 28
+Epoch 30 | Batch 0/600 | Loss 0.475472
+Epoch 30 | Batch 200/600 | Loss 0.289563
+Epoch 30 | Batch 400/600 | Loss 0.286891
+600 Test Acc = 84.63% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 89.78
+val loss is 0.43, val acc is 84.63
+model best acc is 85.22, best acc epoch is 28
+Epoch 31 | Batch 0/600 | Loss 0.339680
+Epoch 31 | Batch 200/600 | Loss 0.288257
+Epoch 31 | Batch 400/600 | Loss 0.292682
+600 Test Acc = 84.73% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 89.69
+val loss is 0.42, val acc is 84.73
+model best acc is 85.22, best acc epoch is 28
+Epoch 32 | Batch 0/600 | Loss 0.414582
+Epoch 32 | Batch 200/600 | Loss 0.283152
+Epoch 32 | Batch 400/600 | Loss 0.285161
+600 Test Acc = 85.08% +- 0.49%
+This epoch use 2.62 minutes
+train loss is 0.29, train acc is 90.00
+val loss is 0.42, val acc is 85.08
+model best acc is 85.22, best acc epoch is 28
+Epoch 33 | Batch 0/600 | Loss 0.343818
+Epoch 33 | Batch 200/600 | Loss 0.287827
+Epoch 33 | Batch 400/600 | Loss 0.282072
+600 Test Acc = 84.55% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 90.03
+val loss is 0.43, val acc is 84.55
+model best acc is 85.22, best acc epoch is 28
+Epoch 34 | Batch 0/600 | Loss 0.252281
+Epoch 34 | Batch 200/600 | Loss 0.289224
+Epoch 34 | Batch 400/600 | Loss 0.286895
+600 Test Acc = 84.45% +- 0.50%
+This epoch use 2.62 minutes
+train loss is 0.29, train acc is 90.02
+val loss is 0.43, val acc is 84.45
+model best acc is 85.22, best acc epoch is 28
+Epoch 35 | Batch 0/600 | Loss 0.578081
+Epoch 35 | Batch 200/600 | Loss 0.284313
+Epoch 35 | Batch 400/600 | Loss 0.284067
+600 Test Acc = 84.70% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 90.10
+val loss is 0.42, val acc is 84.70
+model best acc is 85.22, best acc epoch is 28
+Epoch 36 | Batch 0/600 | Loss 0.485856
+Epoch 36 | Batch 200/600 | Loss 0.285815
+Epoch 36 | Batch 400/600 | Loss 0.279723
+600 Test Acc = 84.67% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.25
+val loss is 0.43, val acc is 84.67
+model best acc is 85.22, best acc epoch is 28
+Epoch 37 | Batch 0/600 | Loss 0.160509
+Epoch 37 | Batch 200/600 | Loss 0.298337
+Epoch 37 | Batch 400/600 | Loss 0.287764
+600 Test Acc = 85.05% +- 0.47%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 89.98
+val loss is 0.42, val acc is 85.05
+model best acc is 85.22, best acc epoch is 28
+Epoch 38 | Batch 0/600 | Loss 0.198022
+Epoch 38 | Batch 200/600 | Loss 0.275204
+Epoch 38 | Batch 400/600 | Loss 0.283997
+600 Test Acc = 84.42% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.22
+val loss is 0.44, val acc is 84.42
+model best acc is 85.22, best acc epoch is 28
+Epoch 39 | Batch 0/600 | Loss 0.223730
+Epoch 39 | Batch 200/600 | Loss 0.275036
+Epoch 39 | Batch 400/600 | Loss 0.274079
+600 Test Acc = 84.87% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.23
+val loss is 0.42, val acc is 84.87
+model best acc is 85.22, best acc epoch is 28
+Epoch 40 | Batch 0/600 | Loss 0.297797
+Epoch 40 | Batch 200/600 | Loss 0.283688
+Epoch 40 | Batch 400/600 | Loss 0.281281
+600 Test Acc = 84.97% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.32
+val loss is 0.42, val acc is 84.97
+model best acc is 85.22, best acc epoch is 28
+Epoch 41 | Batch 0/600 | Loss 0.284386
+Epoch 41 | Batch 200/600 | Loss 0.280804
+Epoch 41 | Batch 400/600 | Loss 0.279542
+600 Test Acc = 84.36% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.33
+val loss is 0.43, val acc is 84.36
+model best acc is 85.22, best acc epoch is 28
+Epoch 42 | Batch 0/600 | Loss 0.218312
+Epoch 42 | Batch 200/600 | Loss 0.290513
+Epoch 42 | Batch 400/600 | Loss 0.281162
+600 Test Acc = 84.72% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.29, train acc is 90.09
+val loss is 0.43, val acc is 84.72
+model best acc is 85.22, best acc epoch is 28
+Epoch 43 | Batch 0/600 | Loss 0.216248
+Epoch 43 | Batch 200/600 | Loss 0.278467
+Epoch 43 | Batch 400/600 | Loss 0.284692
+600 Test Acc = 84.70% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.60
+val loss is 0.43, val acc is 84.70
+model best acc is 85.22, best acc epoch is 28
+Epoch 44 | Batch 0/600 | Loss 0.218700
+Epoch 44 | Batch 200/600 | Loss 0.282311
+Epoch 44 | Batch 400/600 | Loss 0.273604
+600 Test Acc = 85.11% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.46
+val loss is 0.42, val acc is 85.11
+model best acc is 85.22, best acc epoch is 28
+Epoch 45 | Batch 0/600 | Loss 0.291923
+Epoch 45 | Batch 200/600 | Loss 0.275760
+Epoch 45 | Batch 400/600 | Loss 0.277315
+600 Test Acc = 84.63% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.52
+val loss is 0.43, val acc is 84.63
+model best acc is 85.22, best acc epoch is 28
+Epoch 46 | Batch 0/600 | Loss 0.288847
+Epoch 46 | Batch 200/600 | Loss 0.295409
+Epoch 46 | Batch 400/600 | Loss 0.283621
+600 Test Acc = 84.80% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.17
+val loss is 0.43, val acc is 84.80
+model best acc is 85.22, best acc epoch is 28
+Epoch 47 | Batch 0/600 | Loss 0.218183
+Epoch 47 | Batch 200/600 | Loss 0.269478
+Epoch 47 | Batch 400/600 | Loss 0.274442
+600 Test Acc = 85.00% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.39
+val loss is 0.42, val acc is 85.00
+model best acc is 85.22, best acc epoch is 28
+Epoch 48 | Batch 0/600 | Loss 0.241558
+Epoch 48 | Batch 200/600 | Loss 0.272046
+Epoch 48 | Batch 400/600 | Loss 0.276220
+600 Test Acc = 84.47% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.08
+val loss is 0.43, val acc is 84.47
+model best acc is 85.22, best acc epoch is 28
+Epoch 49 | Batch 0/600 | Loss 0.112632
+Epoch 49 | Batch 200/600 | Loss 0.282217
+Epoch 49 | Batch 400/600 | Loss 0.286159
+600 Test Acc = 84.52% +- 0.54%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.23
+val loss is 0.43, val acc is 84.52
+model best acc is 85.22, best acc epoch is 28
+Epoch 50 | Batch 0/600 | Loss 0.178882
+Epoch 50 | Batch 200/600 | Loss 0.267328
+Epoch 50 | Batch 400/600 | Loss 0.261320
+600 Test Acc = 84.33% +- 0.52%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.67
+val loss is 0.43, val acc is 84.33
+model best acc is 85.22, best acc epoch is 28
+Epoch 51 | Batch 0/600 | Loss 0.185992
+Epoch 51 | Batch 200/600 | Loss 0.271450
+Epoch 51 | Batch 400/600 | Loss 0.270202
+600 Test Acc = 85.06% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.67
+val loss is 0.42, val acc is 85.06
+model best acc is 85.22, best acc epoch is 28
+Epoch 52 | Batch 0/600 | Loss 0.241437
+Epoch 52 | Batch 200/600 | Loss 0.279583
+Epoch 52 | Batch 400/600 | Loss 0.273265
+600 Test Acc = 84.91% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.30
+val loss is 0.42, val acc is 84.91
+model best acc is 85.22, best acc epoch is 28
+Epoch 53 | Batch 0/600 | Loss 0.213625
+Epoch 53 | Batch 200/600 | Loss 0.279181
+Epoch 53 | Batch 400/600 | Loss 0.281979
+600 Test Acc = 84.61% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.20
+val loss is 0.43, val acc is 84.61
+model best acc is 85.22, best acc epoch is 28
+Epoch 54 | Batch 0/600 | Loss 0.455195
+Epoch 54 | Batch 200/600 | Loss 0.279175
+Epoch 54 | Batch 400/600 | Loss 0.279670
+600 Test Acc = 84.56% +- 0.52%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.33
+val loss is 0.43, val acc is 84.56
+model best acc is 85.22, best acc epoch is 28
+Epoch 55 | Batch 0/600 | Loss 0.378349
+Epoch 55 | Batch 200/600 | Loss 0.268559
+Epoch 55 | Batch 400/600 | Loss 0.275278
+600 Test Acc = 84.49% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.39
+val loss is 0.43, val acc is 84.49
+model best acc is 85.22, best acc epoch is 28
+Epoch 56 | Batch 0/600 | Loss 0.388806
+Epoch 56 | Batch 200/600 | Loss 0.277312
+Epoch 56 | Batch 400/600 | Loss 0.279512
+600 Test Acc = 84.75% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.42
+val loss is 0.42, val acc is 84.75
+model best acc is 85.22, best acc epoch is 28
+Epoch 57 | Batch 0/600 | Loss 0.210347
+Epoch 57 | Batch 200/600 | Loss 0.261475
+Epoch 57 | Batch 400/600 | Loss 0.262870
+600 Test Acc = 84.88% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.64
+val loss is 0.42, val acc is 84.88
+model best acc is 85.22, best acc epoch is 28
+Epoch 58 | Batch 0/600 | Loss 0.329916
+Epoch 58 | Batch 200/600 | Loss 0.266917
+Epoch 58 | Batch 400/600 | Loss 0.265753
+600 Test Acc = 84.64% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.52
+val loss is 0.43, val acc is 84.64
+model best acc is 85.22, best acc epoch is 28
+Epoch 59 | Batch 0/600 | Loss 0.321237
+Epoch 59 | Batch 200/600 | Loss 0.282957
+Epoch 59 | Batch 400/600 | Loss 0.278337
+600 Test Acc = 84.39% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.33
+val loss is 0.43, val acc is 84.39
+model best acc is 85.22, best acc epoch is 28
+Epoch 60 | Batch 0/600 | Loss 0.089714
+Epoch 60 | Batch 200/600 | Loss 0.270484
+Epoch 60 | Batch 400/600 | Loss 0.276811
+600 Test Acc = 84.43% +- 0.55%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.44
+val loss is 0.43, val acc is 84.43
+model best acc is 85.22, best acc epoch is 28
+Epoch 61 | Batch 0/600 | Loss 0.352821
+Epoch 61 | Batch 200/600 | Loss 0.266049
+Epoch 61 | Batch 400/600 | Loss 0.264122
+600 Test Acc = 84.48% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.48
+val loss is 0.43, val acc is 84.48
+model best acc is 85.22, best acc epoch is 28
+Epoch 62 | Batch 0/600 | Loss 0.438984
+Epoch 62 | Batch 200/600 | Loss 0.259074
+Epoch 62 | Batch 400/600 | Loss 0.277559
+600 Test Acc = 84.88% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.23
+val loss is 0.42, val acc is 84.88
+model best acc is 85.22, best acc epoch is 28
+Epoch 63 | Batch 0/600 | Loss 0.205860
+Epoch 63 | Batch 200/600 | Loss 0.276632
+Epoch 63 | Batch 400/600 | Loss 0.285300
+600 Test Acc = 84.90% +- 0.51%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.22
+val loss is 0.42, val acc is 84.90
+model best acc is 85.22, best acc epoch is 28
+Epoch 64 | Batch 0/600 | Loss 0.416829
+Epoch 64 | Batch 200/600 | Loss 0.276441
+Epoch 64 | Batch 400/600 | Loss 0.276481
+600 Test Acc = 84.74% +- 0.52%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.62
+val loss is 0.42, val acc is 84.74
+model best acc is 85.22, best acc epoch is 28
+Epoch 65 | Batch 0/600 | Loss 0.225943
+Epoch 65 | Batch 200/600 | Loss 0.282578
+Epoch 65 | Batch 400/600 | Loss 0.279696
+600 Test Acc = 84.55% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.30
+val loss is 0.43, val acc is 84.55
+model best acc is 85.22, best acc epoch is 28
+Epoch 66 | Batch 0/600 | Loss 0.389942
+Epoch 66 | Batch 200/600 | Loss 0.266640
+Epoch 66 | Batch 400/600 | Loss 0.269323
+600 Test Acc = 84.60% +- 0.49%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.46
+val loss is 0.43, val acc is 84.60
+model best acc is 85.22, best acc epoch is 28
+Epoch 67 | Batch 0/600 | Loss 0.172312
+Epoch 67 | Batch 200/600 | Loss 0.261251
+Epoch 67 | Batch 400/600 | Loss 0.258590
+600 Test Acc = 84.74% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.91
+val loss is 0.43, val acc is 84.74
+model best acc is 85.22, best acc epoch is 28
+Epoch 68 | Batch 0/600 | Loss 0.408405
+Epoch 68 | Batch 200/600 | Loss 0.261198
+Epoch 68 | Batch 400/600 | Loss 0.271895
+600 Test Acc = 84.38% +- 0.50%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.20
+val loss is 0.44, val acc is 84.38
+model best acc is 85.22, best acc epoch is 28
+Epoch 69 | Batch 0/600 | Loss 0.242618
+Epoch 69 | Batch 200/600 | Loss 0.267167
+Epoch 69 | Batch 400/600 | Loss 0.268929
+600 Test Acc = 84.49% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.77
+val loss is 0.43, val acc is 84.49
+model best acc is 85.22, best acc epoch is 28
+Epoch 70 | Batch 0/600 | Loss 0.266807
+Epoch 70 | Batch 200/600 | Loss 0.279512
+Epoch 70 | Batch 400/600 | Loss 0.281645
+600 Test Acc = 84.71% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.14
+val loss is 0.42, val acc is 84.71
+model best acc is 85.22, best acc epoch is 28
+Epoch 71 | Batch 0/600 | Loss 0.494018
+Epoch 71 | Batch 200/600 | Loss 0.273289
+Epoch 71 | Batch 400/600 | Loss 0.279227
+600 Test Acc = 84.65% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.36
+val loss is 0.42, val acc is 84.65
+model best acc is 85.22, best acc epoch is 28
+Epoch 72 | Batch 0/600 | Loss 0.128214
+Epoch 72 | Batch 200/600 | Loss 0.262757
+Epoch 72 | Batch 400/600 | Loss 0.266766
+600 Test Acc = 84.91% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.71
+val loss is 0.42, val acc is 84.91
+model best acc is 85.22, best acc epoch is 28
+Epoch 73 | Batch 0/600 | Loss 0.253401
+Epoch 73 | Batch 200/600 | Loss 0.269933
+Epoch 73 | Batch 400/600 | Loss 0.268214
+600 Test Acc = 84.50% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.74
+val loss is 0.43, val acc is 84.50
+model best acc is 85.22, best acc epoch is 28
+Epoch 74 | Batch 0/600 | Loss 0.315073
+Epoch 74 | Batch 200/600 | Loss 0.261403
+Epoch 74 | Batch 400/600 | Loss 0.263412
+600 Test Acc = 84.89% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.74
+val loss is 0.42, val acc is 84.89
+model best acc is 85.22, best acc epoch is 28
+Epoch 75 | Batch 0/600 | Loss 0.386420
+Epoch 75 | Batch 200/600 | Loss 0.273934
+Epoch 75 | Batch 400/600 | Loss 0.274609
+600 Test Acc = 84.66% +- 0.52%
+This epoch use 2.60 minutes
+train loss is 0.28, train acc is 90.42
+val loss is 0.42, val acc is 84.66
+model best acc is 85.22, best acc epoch is 28
+Epoch 76 | Batch 0/600 | Loss 0.414548
+Epoch 76 | Batch 200/600 | Loss 0.276840
+Epoch 76 | Batch 400/600 | Loss 0.277316
+600 Test Acc = 85.39% +- 0.51%
+best model! save...
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.20
+val loss is 0.41, val acc is 85.39
+model best acc is 85.39, best acc epoch is 76
+Epoch 77 | Batch 0/600 | Loss 0.180268
+Epoch 77 | Batch 200/600 | Loss 0.263293
+Epoch 77 | Batch 400/600 | Loss 0.264770
+600 Test Acc = 84.91% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.52
+val loss is 0.42, val acc is 84.91
+model best acc is 85.39, best acc epoch is 76
+Epoch 78 | Batch 0/600 | Loss 0.120325
+Epoch 78 | Batch 200/600 | Loss 0.264809
+Epoch 78 | Batch 400/600 | Loss 0.268539
+600 Test Acc = 85.17% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.77
+val loss is 0.41, val acc is 85.17
+model best acc is 85.39, best acc epoch is 76
+Epoch 79 | Batch 0/600 | Loss 0.252559
+Epoch 79 | Batch 200/600 | Loss 0.269355
+Epoch 79 | Batch 400/600 | Loss 0.274132
+600 Test Acc = 84.81% +- 0.56%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.35
+val loss is 0.41, val acc is 84.81
+model best acc is 85.39, best acc epoch is 76
+Epoch 80 | Batch 0/600 | Loss 0.245251
+Epoch 80 | Batch 200/600 | Loss 0.267250
+Epoch 80 | Batch 400/600 | Loss 0.272356
+600 Test Acc = 84.87% +- 0.49%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.23
+val loss is 0.42, val acc is 84.87
+model best acc is 85.39, best acc epoch is 76
+Epoch 81 | Batch 0/600 | Loss 0.282271
+Epoch 81 | Batch 200/600 | Loss 0.283372
+Epoch 81 | Batch 400/600 | Loss 0.275155
+600 Test Acc = 84.81% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.36
+val loss is 0.42, val acc is 84.81
+model best acc is 85.39, best acc epoch is 76
+Epoch 82 | Batch 0/600 | Loss 0.292304
+Epoch 82 | Batch 200/600 | Loss 0.271996
+Epoch 82 | Batch 400/600 | Loss 0.264896
+600 Test Acc = 84.97% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.36
+val loss is 0.42, val acc is 84.97
+model best acc is 85.39, best acc epoch is 76
+Epoch 83 | Batch 0/600 | Loss 0.083598
+Epoch 83 | Batch 200/600 | Loss 0.258763
+Epoch 83 | Batch 400/600 | Loss 0.263845
+600 Test Acc = 84.90% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.82
+val loss is 0.43, val acc is 84.90
+model best acc is 85.39, best acc epoch is 76
+Epoch 84 | Batch 0/600 | Loss 0.147328
+Epoch 84 | Batch 200/600 | Loss 0.264922
+Epoch 84 | Batch 400/600 | Loss 0.259618
+600 Test Acc = 85.10% +- 0.48%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.91
+val loss is 0.41, val acc is 85.10
+model best acc is 85.39, best acc epoch is 76
+Epoch 85 | Batch 0/600 | Loss 0.298721
+Epoch 85 | Batch 200/600 | Loss 0.273862
+Epoch 85 | Batch 400/600 | Loss 0.276078
+600 Test Acc = 85.27% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.67
+val loss is 0.41, val acc is 85.27
+model best acc is 85.39, best acc epoch is 76
+Epoch 86 | Batch 0/600 | Loss 0.203497
+Epoch 86 | Batch 200/600 | Loss 0.267971
+Epoch 86 | Batch 400/600 | Loss 0.273293
+600 Test Acc = 84.83% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.40
+val loss is 0.42, val acc is 84.83
+model best acc is 85.39, best acc epoch is 76
+Epoch 87 | Batch 0/600 | Loss 0.190922
+Epoch 87 | Batch 200/600 | Loss 0.277900
+Epoch 87 | Batch 400/600 | Loss 0.274393
+600 Test Acc = 85.12% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.27
+val loss is 0.41, val acc is 85.12
+model best acc is 85.39, best acc epoch is 76
+Epoch 88 | Batch 0/600 | Loss 0.121342
+Epoch 88 | Batch 200/600 | Loss 0.264778
+Epoch 88 | Batch 400/600 | Loss 0.268174
+600 Test Acc = 84.82% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.60
+val loss is 0.42, val acc is 84.82
+model best acc is 85.39, best acc epoch is 76
+Epoch 89 | Batch 0/600 | Loss 0.069716
+Epoch 89 | Batch 200/600 | Loss 0.275459
+Epoch 89 | Batch 400/600 | Loss 0.267204
+600 Test Acc = 84.99% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.86
+val loss is 0.41, val acc is 84.99
+model best acc is 85.39, best acc epoch is 76
+Epoch 90 | Batch 0/600 | Loss 0.171364
+Epoch 90 | Batch 200/600 | Loss 0.279800
+Epoch 90 | Batch 400/600 | Loss 0.282101
+600 Test Acc = 84.06% +- 0.49%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.25
+val loss is 0.44, val acc is 84.06
+model best acc is 85.39, best acc epoch is 76
+Epoch 91 | Batch 0/600 | Loss 0.389904
+Epoch 91 | Batch 200/600 | Loss 0.285372
+Epoch 91 | Batch 400/600 | Loss 0.270609
+600 Test Acc = 84.95% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.57
+val loss is 0.41, val acc is 84.95
+model best acc is 85.39, best acc epoch is 76
+Epoch 92 | Batch 0/600 | Loss 0.155110
+Epoch 92 | Batch 200/600 | Loss 0.274548
+Epoch 92 | Batch 400/600 | Loss 0.273050
+600 Test Acc = 85.22% +- 0.50%
+This epoch use 2.60 minutes
+train loss is 0.27, train acc is 90.62
+val loss is 0.41, val acc is 85.22
+model best acc is 85.39, best acc epoch is 76
+Epoch 93 | Batch 0/600 | Loss 0.731944
+Epoch 93 | Batch 200/600 | Loss 0.279308
+Epoch 93 | Batch 400/600 | Loss 0.278637
+600 Test Acc = 84.83% +- 0.52%
+This epoch use 2.62 minutes
+train loss is 0.28, train acc is 90.36
+val loss is 0.42, val acc is 84.83
+model best acc is 85.39, best acc epoch is 76
+Epoch 94 | Batch 0/600 | Loss 0.080367
+Epoch 94 | Batch 200/600 | Loss 0.268049
+Epoch 94 | Batch 400/600 | Loss 0.263218
+600 Test Acc = 84.67% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.73
+val loss is 0.43, val acc is 84.67
+model best acc is 85.39, best acc epoch is 76
+Epoch 95 | Batch 0/600 | Loss 0.120412
+Epoch 95 | Batch 200/600 | Loss 0.276199
+Epoch 95 | Batch 400/600 | Loss 0.269711
+600 Test Acc = 84.74% +- 0.52%
+This epoch use 2.60 minutes
+train loss is 0.27, train acc is 90.57
+val loss is 0.42, val acc is 84.74
+model best acc is 85.39, best acc epoch is 76
+Epoch 96 | Batch 0/600 | Loss 0.342183
+Epoch 96 | Batch 200/600 | Loss 0.266026
+Epoch 96 | Batch 400/600 | Loss 0.267372
+600 Test Acc = 84.39% +- 0.56%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.53
+val loss is 0.43, val acc is 84.39
+model best acc is 85.39, best acc epoch is 76
+Epoch 97 | Batch 0/600 | Loss 0.186797
+Epoch 97 | Batch 200/600 | Loss 0.280201
+Epoch 97 | Batch 400/600 | Loss 0.272910
+600 Test Acc = 84.88% +- 0.51%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.47
+val loss is 0.42, val acc is 84.88
+model best acc is 85.39, best acc epoch is 76
+Epoch 98 | Batch 0/600 | Loss 0.478775
+Epoch 98 | Batch 200/600 | Loss 0.264629
+Epoch 98 | Batch 400/600 | Loss 0.268189
+600 Test Acc = 85.13% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.56
+val loss is 0.42, val acc is 85.13
+model best acc is 85.39, best acc epoch is 76
+Epoch 99 | Batch 0/600 | Loss 0.357020
+Epoch 99 | Batch 200/600 | Loss 0.256153
+Epoch 99 | Batch 400/600 | Loss 0.266418
+600 Test Acc = 85.05% +- 0.51%
+This epoch use 2.60 minutes
+train loss is 0.27, train acc is 90.58
+val loss is 0.42, val acc is 85.05
+model best acc is 85.39, best acc epoch is 76
+Epoch 100 | Batch 0/600 | Loss 0.097939
+Epoch 100 | Batch 200/600 | Loss 0.273444
+Epoch 100 | Batch 400/600 | Loss 0.267633
+600 Test Acc = 84.70% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.70
+val loss is 0.43, val acc is 84.70
+model best acc is 85.39, best acc epoch is 76
+Epoch 101 | Batch 0/600 | Loss 0.268040
+Epoch 101 | Batch 200/600 | Loss 0.279974
+Epoch 101 | Batch 400/600 | Loss 0.278932
+600 Test Acc = 84.66% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.35
+val loss is 0.43, val acc is 84.66
+model best acc is 85.39, best acc epoch is 76
+Epoch 102 | Batch 0/600 | Loss 0.218797
+Epoch 102 | Batch 200/600 | Loss 0.263509
+Epoch 102 | Batch 400/600 | Loss 0.265658
+600 Test Acc = 84.97% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.51
+val loss is 0.42, val acc is 84.97
+model best acc is 85.39, best acc epoch is 76
+Epoch 103 | Batch 0/600 | Loss 0.134372
+Epoch 103 | Batch 200/600 | Loss 0.261965
+Epoch 103 | Batch 400/600 | Loss 0.260561
+600 Test Acc = 84.87% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.89
+val loss is 0.42, val acc is 84.87
+model best acc is 85.39, best acc epoch is 76
+Epoch 104 | Batch 0/600 | Loss 0.291486
+Epoch 104 | Batch 200/600 | Loss 0.278138
+Epoch 104 | Batch 400/600 | Loss 0.271916
+600 Test Acc = 84.97% +- 0.52%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.58
+val loss is 0.42, val acc is 84.97
+model best acc is 85.39, best acc epoch is 76
+Epoch 105 | Batch 0/600 | Loss 0.021776
+Epoch 105 | Batch 200/600 | Loss 0.272921
+Epoch 105 | Batch 400/600 | Loss 0.272372
+600 Test Acc = 85.20% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.71
+val loss is 0.41, val acc is 85.20
+model best acc is 85.39, best acc epoch is 76
+Epoch 106 | Batch 0/600 | Loss 0.272944
+Epoch 106 | Batch 200/600 | Loss 0.283340
+Epoch 106 | Batch 400/600 | Loss 0.273144
+600 Test Acc = 84.85% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.56
+val loss is 0.42, val acc is 84.85
+model best acc is 85.39, best acc epoch is 76
+Epoch 107 | Batch 0/600 | Loss 0.216333
+Epoch 107 | Batch 200/600 | Loss 0.282334
+Epoch 107 | Batch 400/600 | Loss 0.273383
+600 Test Acc = 84.98% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.42
+val loss is 0.42, val acc is 84.98
+model best acc is 85.39, best acc epoch is 76
+Epoch 108 | Batch 0/600 | Loss 0.311574
+Epoch 108 | Batch 200/600 | Loss 0.274235
+Epoch 108 | Batch 400/600 | Loss 0.270564
+600 Test Acc = 84.75% +- 0.51%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.39
+val loss is 0.42, val acc is 84.75
+model best acc is 85.39, best acc epoch is 76
+Epoch 109 | Batch 0/600 | Loss 0.284741
+Epoch 109 | Batch 200/600 | Loss 0.277469
+Epoch 109 | Batch 400/600 | Loss 0.277471
+600 Test Acc = 84.57% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.42
+val loss is 0.43, val acc is 84.57
+model best acc is 85.39, best acc epoch is 76
+Epoch 110 | Batch 0/600 | Loss 0.275014
+Epoch 110 | Batch 200/600 | Loss 0.279140
+Epoch 110 | Batch 400/600 | Loss 0.276205
+600 Test Acc = 85.12% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.42
+val loss is 0.41, val acc is 85.12
+model best acc is 85.39, best acc epoch is 76
+Epoch 111 | Batch 0/600 | Loss 0.404803
+Epoch 111 | Batch 200/600 | Loss 0.257237
+Epoch 111 | Batch 400/600 | Loss 0.258200
+600 Test Acc = 84.66% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.84
+val loss is 0.42, val acc is 84.66
+model best acc is 85.39, best acc epoch is 76
+Epoch 112 | Batch 0/600 | Loss 0.286845
+Epoch 112 | Batch 200/600 | Loss 0.269313
+Epoch 112 | Batch 400/600 | Loss 0.264495
+600 Test Acc = 84.69% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.81
+val loss is 0.43, val acc is 84.69
+model best acc is 85.39, best acc epoch is 76
+Epoch 113 | Batch 0/600 | Loss 0.354628
+Epoch 113 | Batch 200/600 | Loss 0.278524
+Epoch 113 | Batch 400/600 | Loss 0.267000
+600 Test Acc = 84.83% +- 0.48%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.44
+val loss is 0.42, val acc is 84.83
+model best acc is 85.39, best acc epoch is 76
+Epoch 114 | Batch 0/600 | Loss 0.196786
+Epoch 114 | Batch 200/600 | Loss 0.279477
+Epoch 114 | Batch 400/600 | Loss 0.271747
+600 Test Acc = 84.88% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.64
+val loss is 0.42, val acc is 84.88
+model best acc is 85.39, best acc epoch is 76
+Epoch 115 | Batch 0/600 | Loss 0.267383
+Epoch 115 | Batch 200/600 | Loss 0.268388
+Epoch 115 | Batch 400/600 | Loss 0.270069
+600 Test Acc = 84.70% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.55
+val loss is 0.42, val acc is 84.70
+model best acc is 85.39, best acc epoch is 76
+Epoch 116 | Batch 0/600 | Loss 0.269489
+Epoch 116 | Batch 200/600 | Loss 0.264621
+Epoch 116 | Batch 400/600 | Loss 0.273681
+600 Test Acc = 84.47% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.46
+val loss is 0.43, val acc is 84.47
+model best acc is 85.39, best acc epoch is 76
+Epoch 117 | Batch 0/600 | Loss 0.225226
+Epoch 117 | Batch 200/600 | Loss 0.248821
+Epoch 117 | Batch 400/600 | Loss 0.253468
+600 Test Acc = 84.61% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.80
+val loss is 0.43, val acc is 84.61
+model best acc is 85.39, best acc epoch is 76
+Epoch 118 | Batch 0/600 | Loss 0.174902
+Epoch 118 | Batch 200/600 | Loss 0.276454
+Epoch 118 | Batch 400/600 | Loss 0.272887
+600 Test Acc = 84.55% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.53
+val loss is 0.43, val acc is 84.55
+model best acc is 85.39, best acc epoch is 76
+Epoch 119 | Batch 0/600 | Loss 0.213090
+Epoch 119 | Batch 200/600 | Loss 0.274877
+Epoch 119 | Batch 400/600 | Loss 0.273822
+600 Test Acc = 85.26% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.37
+val loss is 0.41, val acc is 85.26
+model best acc is 85.39, best acc epoch is 76
+Epoch 120 | Batch 0/600 | Loss 0.306612
+Epoch 120 | Batch 200/600 | Loss 0.250627
+Epoch 120 | Batch 400/600 | Loss 0.263938
+600 Test Acc = 84.80% +- 0.50%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.72
+val loss is 0.43, val acc is 84.80
+model best acc is 85.39, best acc epoch is 76
+Epoch 121 | Batch 0/600 | Loss 0.143573
+Epoch 121 | Batch 200/600 | Loss 0.268794
+Epoch 121 | Batch 400/600 | Loss 0.260519
+600 Test Acc = 84.81% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.81
+val loss is 0.42, val acc is 84.81
+model best acc is 85.39, best acc epoch is 76
+Epoch 122 | Batch 0/600 | Loss 0.160531
+Epoch 122 | Batch 200/600 | Loss 0.267955
+Epoch 122 | Batch 400/600 | Loss 0.264532
+600 Test Acc = 85.26% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.61
+val loss is 0.41, val acc is 85.26
+model best acc is 85.39, best acc epoch is 76
+Epoch 123 | Batch 0/600 | Loss 0.408092
+Epoch 123 | Batch 200/600 | Loss 0.279286
+Epoch 123 | Batch 400/600 | Loss 0.272955
+600 Test Acc = 84.96% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.45
+val loss is 0.42, val acc is 84.96
+model best acc is 85.39, best acc epoch is 76
+Epoch 124 | Batch 0/600 | Loss 0.236301
+Epoch 124 | Batch 200/600 | Loss 0.270618
+Epoch 124 | Batch 400/600 | Loss 0.265296
+600 Test Acc = 84.81% +- 0.48%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 91.13
+val loss is 0.41, val acc is 84.81
+model best acc is 85.39, best acc epoch is 76
+Epoch 125 | Batch 0/600 | Loss 0.267166
+Epoch 125 | Batch 200/600 | Loss 0.264178
+Epoch 125 | Batch 400/600 | Loss 0.265192
+600 Test Acc = 85.20% +- 0.50%
+This epoch use 2.60 minutes
+train loss is 0.27, train acc is 90.64
+val loss is 0.42, val acc is 85.20
+model best acc is 85.39, best acc epoch is 76
+Epoch 126 | Batch 0/600 | Loss 0.127446
+Epoch 126 | Batch 200/600 | Loss 0.272079
+Epoch 126 | Batch 400/600 | Loss 0.268828
+600 Test Acc = 84.73% +- 0.50%
+This epoch use 2.62 minutes
+train loss is 0.27, train acc is 90.62
+val loss is 0.42, val acc is 84.73
+model best acc is 85.39, best acc epoch is 76
+Epoch 127 | Batch 0/600 | Loss 0.211072
+Epoch 127 | Batch 200/600 | Loss 0.277987
+Epoch 127 | Batch 400/600 | Loss 0.275200
+600 Test Acc = 84.48% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.62
+val loss is 0.43, val acc is 84.48
+model best acc is 85.39, best acc epoch is 76
+Epoch 128 | Batch 0/600 | Loss 0.291933
+Epoch 128 | Batch 200/600 | Loss 0.275111
+Epoch 128 | Batch 400/600 | Loss 0.273422
+600 Test Acc = 84.51% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.71
+val loss is 0.43, val acc is 84.51
+model best acc is 85.39, best acc epoch is 76
+Epoch 129 | Batch 0/600 | Loss 0.101405
+Epoch 129 | Batch 200/600 | Loss 0.252976
+Epoch 129 | Batch 400/600 | Loss 0.264965
+600 Test Acc = 85.00% +- 0.49%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.79
+val loss is 0.42, val acc is 85.00
+model best acc is 85.39, best acc epoch is 76
+Epoch 130 | Batch 0/600 | Loss 0.675058
+Epoch 130 | Batch 200/600 | Loss 0.268676
+Epoch 130 | Batch 400/600 | Loss 0.264402
+600 Test Acc = 84.89% +- 0.52%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.85
+val loss is 0.42, val acc is 84.89
+model best acc is 85.39, best acc epoch is 76
+Epoch 131 | Batch 0/600 | Loss 0.344034
+Epoch 131 | Batch 200/600 | Loss 0.262118
+Epoch 131 | Batch 400/600 | Loss 0.267488
+600 Test Acc = 84.69% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.71
+val loss is 0.42, val acc is 84.69
+model best acc is 85.39, best acc epoch is 76
+Epoch 132 | Batch 0/600 | Loss 0.309758
+Epoch 132 | Batch 200/600 | Loss 0.276023
+Epoch 132 | Batch 400/600 | Loss 0.270876
+600 Test Acc = 84.42% +- 0.53%
+This epoch use 2.61 minutes
+train loss is 0.27, train acc is 90.94
+val loss is 0.44, val acc is 84.42
+model best acc is 85.39, best acc epoch is 76
+Epoch 133 | Batch 0/600 | Loss 0.398737
+Epoch 133 | Batch 200/600 | Loss 0.285912
+Epoch 133 | Batch 400/600 | Loss 0.276506
+600 Test Acc = 84.36% +- 0.54%
+This epoch use 2.61 minutes
+train loss is 0.28, train acc is 90.30
+val loss is 0.43, val acc is 84.36
+model best acc is 85.39, best acc epoch is 76
+Epoch 134 | Batch 0/600 | Loss 0.313748
+Epoch 134 | Batch 200/600 | Loss 0.279367
+Epoch 134 | Batch 400/600 | Loss 0.271884
+600 Test Acc = 85.04% +- 0.51%
+This epoch use 2.61 minutes
+train loss is 0.26, train acc is 90.84
+val loss is 0.42, val acc is 85.04
+model best acc is 85.39, best acc epoch is 76
+Epoch 135 | Batch 0/600 | Loss 0.236639
+Epoch 135 | Batch 200/600 | Loss 0.257696
+Epoch 135 | Batch 400/600 | Loss 0.262500
